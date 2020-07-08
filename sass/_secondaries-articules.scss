@@ -1,0 +1,21 @@
+@import "styles"
+;
+
+.secondaries-articules{
+  @extend %grid;
+
+  .container{
+    display: grid;
+    align-items: space-between;
+
+    h2{
+      @extend %links;
+      font-size: $lk-main-font-size;
+    }
+
+    p{
+      @extend %bottom-p;
+      padding-top: 15px;
+    }
+  }
+}

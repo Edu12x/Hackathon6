@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+main{
+  margin: 5% 10%;
+}
+
+@import "bottoms";
+@import "main-articules";
+@import "secondaries-articules"

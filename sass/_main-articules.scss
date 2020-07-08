@@ -1,0 +1,26 @@
+@import "styles";
+
+.main-articule{
+  @extend %grid;
+
+  .container{
+    display: grid;
+    align-items: space-between;
+
+    h2{
+      @extend %links;
+      font-size: $lk-main-font-size;
+    }
+
+    p{
+      @extend %bottom-p;
+      padding-top: 15px;
+    }
+  }
+
+  figure img {
+    width: 100%;;
+    display: $img-display;
+    padding:10px;
+  }
+}

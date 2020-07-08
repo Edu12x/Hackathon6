@@ -1,0 +1,27 @@
+@import "styles";
+
+
+.articule-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 10px;
+
+  a{
+    @extend %links;
+    font-size: $lk-bottom-font-size;
+  }
+
+  h3{
+    @extend %bottom-p;
+  }
+
+  ul{
+    display: flex;
+    li{
+      padding-right: 10px;
+    }
+  }
+}
+;
+

@@ -1,0 +1,42 @@
+//Estilos principales - links
+%links{
+  color :#1F3F68;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+//tamaños de letras - links
+$lk-main-font-size: 36px;
+$lk-secondary-font-size:22px;
+$lk-all-articules-font-size: 18px;
+$lk-bottom-font-size:14px;
+
+
+//botom - parrafo
+%bottom-p{
+  color: gray;
+  font-family: arial;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+
+//Estilos principales - parrafos
+$p-main-font-size:16px;
+$p-secondary-font-size:16px;
+
+
+//Estilos de grilla
+%grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+
+$img-display : block;
+
+
+
