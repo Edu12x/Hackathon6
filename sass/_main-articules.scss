@@ -1,9 +1,11 @@
 @import "styles";
 
 .main-articule{
-  @extend %grid;
+  display: flex;
+  justify-items: center;
 
   .container{
+    width: 50%;
     display: grid;
     align-items: space-between;
 

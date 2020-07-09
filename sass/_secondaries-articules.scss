@@ -2,20 +2,30 @@
 ;
 
 .secondaries-articules{
-  @extend %grid;
-
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  
   .container{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: space-between;
+    width: 30%;
 
+    img{
+      width: 100%;
+    }
+    
     h2{
       @extend %links;
-      font-size: $lk-main-font-size;
+      font-size: $lk-secondary-font-size;
     }
 
     p{
       @extend %bottom-p;
       padding-top: 15px;
+      padding-bottom: 15px ;
     }
   }
 }

@@ -1,3 +1,36 @@
+//Estilos Header
+//logo
+$logo-color:#316099;
+
+%logo{
+  color: $logo-color;
+  border: 2px solid $logo-color;
+  border-radius: 30px;
+  box-shadow: $logo-color;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 2px 5px;
+  box-shadow: -15px 0 $logo-color ;
+}
+
+//Titulo
+%title{
+  color :white;
+  font-family: Arial;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  line-height: 74px;
+}
+
+%title-p{
+  color : rgba(255, 255, 255, 0.78);
+  font-family: Arial;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  line-height: 30px;
+}
+
 //Estilos principales - links
 %links{
   color :#1F3F68;
@@ -8,6 +41,8 @@
 }
 
 //tamaños de letras - links
+$tl-main-font-size:44px;
+$tl-p-font-size:20px;
 $lk-main-font-size: 36px;
 $lk-secondary-font-size:22px;
 $lk-all-articules-font-size: 18px;
@@ -30,12 +65,6 @@ $p-secondary-font-size:16px;
 
 
 //Estilos de grilla
-%grid{
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-}
-
-
 $img-display : block;
 
 
