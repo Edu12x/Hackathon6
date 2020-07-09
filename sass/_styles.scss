@@ -31,6 +31,8 @@ $logo-color:#316099;
   line-height: 30px;
 }
 
+
+
 //Estilos principales - links
 %links{
   color :#1F3F68;
@@ -40,13 +42,17 @@ $logo-color:#316099;
   letter-spacing: 0.04em;
 }
 
-//tamaños de letras - links
+//tamaños de letras -lk:links - tl:titulos - p:Parrafos - l:letters
 $tl-main-font-size:44px;
 $tl-p-font-size:20px;
 $lk-main-font-size: 36px;
 $lk-secondary-font-size:22px;
 $lk-all-articules-font-size: 18px;
 $lk-bottom-font-size:14px;
+$p-main-font-size:16px;
+$p-secondary-font-size:16px;
+$l-letter-font-size:23px;
+$l-letter-font-size-2:16px;
 
 
 //botom - parrafo
@@ -58,11 +64,15 @@ $lk-bottom-font-size:14px;
   letter-spacing: 0.04em;
 }
 
-
-//Estilos principales - parrafos
-$p-main-font-size:16px;
-$p-secondary-font-size:16px;
-
+%letters{
+  color: #356EAD;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  opacity: 0.8;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 //Estilos de grilla
 $img-display : block;

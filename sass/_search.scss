@@ -1,0 +1,25 @@
+
+.search{
+  display: flex;
+  padding: 3% 0px;
+  .fa-search{
+      padding: 10px; 
+      color: #1F3F68; 
+      text-align: center;
+      background-color: #F4F4F4; 
+      border-top-left-radius:10px;
+      border-bottom-left-radius: 10px;
+    }
+
+  &__field{
+    width: 100%;
+    border: none;
+    background-color:#F4F4F4 ;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+  }
+  input:focus{
+    border:none;
+    color: #1F3F68;
+  }
+}
