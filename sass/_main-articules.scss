@@ -1,28 +1,28 @@
 @import "styles";
 
-.main-articule{
+.main-articule {
   display: flex;
   justify-items: center;
 
-  .container{
+  .container {
     width: 50%;
     display: grid;
     align-items: space-between;
 
-    h2{
+    h2 {
       @extend %links;
       font-size: $lk-main-font-size;
     }
 
-    p{
+    p {
       @extend %bottom-p;
       padding-top: 15px;
     }
   }
 
   figure img {
-    width: 100%;;
+    width: 100%;
     display: $img-display;
-    padding:10px;
+    padding: 10px;
   }
 }

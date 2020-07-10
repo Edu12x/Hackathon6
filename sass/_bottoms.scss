@@ -1,27 +1,24 @@
 @import "styles";
 
-
-.articule-bottom{
+.articule-bottom {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding-bottom: 10px;
 
-  a{
+  a {
     @extend %links;
     font-size: $lk-bottom-font-size;
   }
 
-  h3{
+  h3 {
     @extend %bottom-p;
   }
 
-  ul{
+  ul {
     display: flex;
-    li{
+    li {
       padding-right: 10px;
     }
   }
 }
-;
-

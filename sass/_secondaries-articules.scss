@@ -1,31 +1,30 @@
-@import "styles"
-;
+@import "styles";
 
-.secondaries-articules{
+.secondaries-articules {
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
-  
-  .container{
+
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: space-between;
     width: 30%;
 
-    img{
+    img {
       width: 100%;
     }
-    
-    h2{
+
+    h2 {
       @extend %links;
       font-size: $lk-secondary-font-size;
     }
 
-    p{
+    p {
       @extend %bottom-p;
       padding-top: 15px;
-      padding-bottom: 15px ;
+      padding-bottom: 15px;
     }
   }
 }

@@ -1,38 +1,33 @@
-@import "styles"
-;
+@import "styles";
 
-.all-articules{
+.all-articules {
   padding-top: 20px;
 
-  &__img{
+  &__img {
     display: flex;
 
-    figure{
+    figure {
       width: 60%;
-    };
+    }
 
-    figure img{
+    figure img {
       display: block;
       width: 100%;
       padding: 5px;
     }
   }
-  &__content{
+  &__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    h2{
+    h2 {
       @extend %links;
       font-size: $lk-all-articules-font-size;
     }
 
-    p{
+    p {
       @extend %bottom-p;
-
     }
   }
-
-
-
 }

@@ -2,12 +2,16 @@
   box-sizing: border-box;
 }
 
-main{
+main {
   margin: 0px 10%;
 }
 
-.header{
+.header {
   margin: 2% 10%;
+}
+
+.footer {
+  margin: 0px 10%;
 }
 
 @import "bottoms";
@@ -16,7 +20,5 @@ main{
 @import "all-articles";
 @import "header";
 @import "search";
-@import "letters"
-
-
-
+@import "letters";
+@import "footer";

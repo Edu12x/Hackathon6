@@ -1,0 +1,87 @@
+@import "styles";
+
+footer {
+  background-color: $logo-color;
+  border-radius: 0px 200px 0px 0px;
+  margin-right: 2%;
+
+  .rights {
+    @extend %footer;
+    font-size: $p-main-font-size;
+    opacity: 0.6;
+    padding: 30px 0px;
+  }
+}
+
+.footer {
+  &__text {
+    display: flex;
+    align-items: center;
+    @extend %footer;
+    div {
+      max-width: 50%;
+      padding: 7% 0;
+      padding-right: 5%;
+      h2 {
+        font-size: $lk-main-font-size;
+        line-height: 46px;
+        padding-right: 30%;
+        padding-bottom: 5%;
+      }
+
+      p {
+        font-size: $p-main-font-size;
+        opacity: 0.6;
+      }
+    }
+    a {
+      @extend %footer;
+      margin-left: 20%;
+      text-align: center;
+      background: #5a98d0;
+      border-radius: 10px;
+      padding: 10px 50px;
+    }
+  }
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    a {
+      @extend %footer;
+    }
+    &__text2__logo {
+      display: flex;
+      padding-bottom: 20px;
+      .logo {
+        @extend %logo2;
+      }
+      .subtitle {
+        padding-left: 10px;
+        font-size: $l-letter-font-size;
+      }
+    }
+
+    &__text2__grid {
+      display: grid;
+      grid-template-columns: 30px 300px;
+      grid-template-rows: 1fr 1fr 1fr;
+      align-items: center;
+      h3 {
+        @extend %footer;
+        font-size: $p-main-font-size;
+      }
+    }
+    &__text3 {
+      a {
+        display: block;
+        font-size: $tl-p-font-size;
+        padding-bottom: 20px;
+      }
+      ul a {
+        font-size: $p-secondary-font-size;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

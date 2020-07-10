@@ -1,8 +1,9 @@
 //Estilos Header
 //logo
-$logo-color:#316099;
+$logo-color: #316099;
+$logo-color2: #98C3E8;
 
-%logo{
+%logo {
   color: $logo-color;
   border: 2px solid $logo-color;
   border-radius: 30px;
@@ -11,31 +12,42 @@ $logo-color:#316099;
   font-weight: bold;
   font-family: Arial;
   padding: 2px 5px;
-  box-shadow: -15px 0 $logo-color ;
+  box-shadow: -15px 0 $logo-color;
+}
+
+%logo2 {
+  color: $logo-color;
+  border: 2px solid $logo-color;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: $logo-color2;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 2px 5px;
+  box-shadow: -15px 0 $logo-color2;
 }
 
 //Titulo
-%title{
-  color :white;
+%title {
+  color: white;
   font-family: Arial;
   text-decoration: none;
   letter-spacing: 0.04em;
   line-height: 74px;
 }
 
-%title-p{
-  color : rgba(255, 255, 255, 0.78);
+%title-p {
+  color: rgba(255, 255, 255, 0.78);
   font-family: Arial;
   text-decoration: none;
   letter-spacing: 0.04em;
   line-height: 30px;
 }
 
-
-
 //Estilos principales - links
-%links{
-  color :#1F3F68;
+%links {
+  color: #1f3f68;
   font-family: Helvetica;
   font-weight: bold;
   text-decoration: none;
@@ -43,20 +55,19 @@ $logo-color:#316099;
 }
 
 //tamaños de letras -lk:links - tl:titulos - p:Parrafos - l:letters
-$tl-main-font-size:44px;
-$tl-p-font-size:20px;
+$tl-main-font-size: 44px;
+$tl-p-font-size: 20px;
 $lk-main-font-size: 36px;
-$lk-secondary-font-size:22px;
+$lk-secondary-font-size: 22px;
 $lk-all-articules-font-size: 18px;
-$lk-bottom-font-size:14px;
-$p-main-font-size:16px;
-$p-secondary-font-size:16px;
-$l-letter-font-size:23px;
-$l-letter-font-size-2:16px;
-
+$lk-bottom-font-size: 14px;
+$p-main-font-size: 16px;
+$p-secondary-font-size: 16px;
+$l-letter-font-size: 23px;
+$l-letter-font-size-2: 16px;
 
 //botom - parrafo
-%bottom-p{
+%bottom-p {
   color: gray;
   font-family: arial;
   font-size: 14px;
@@ -64,8 +75,8 @@ $l-letter-font-size-2:16px;
   letter-spacing: 0.04em;
 }
 
-%letters{
-  color: #356EAD;
+%letters {
+  color: #356ead;
   line-height: 18px;
   letter-spacing: 0.04em;
   opacity: 0.8;
@@ -74,8 +85,15 @@ $l-letter-font-size-2:16px;
   text-decoration: none;
 }
 
+
+%footer
+ {
+  color: white;
+  font-family: arial;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+}
+
 //Estilos de grilla
-$img-display : block;
-
-
-
+$img-display: block;
