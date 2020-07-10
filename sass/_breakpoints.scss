@@ -1,0 +1,21 @@
+@import "styles";
+
+@mixin breakpoints ($breakpoints){
+  @if ($breakpoints=="lg"){
+    @media (max-width: 900px ){
+      @content;
+    }
+  }
+
+  @if ($breakpoints=="md"){
+    @media (max-width: 768px){
+      @content;
+    }
+  }
+
+  @if ($breakpoints=="sm"){
+    @media (max-width: 420px){
+      @content;
+    }
+  }
+}

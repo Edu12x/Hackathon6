@@ -1,0 +1,27 @@
+@import "styles";
+
+@include breakpoints ("lg"){
+  .main-articule{
+    flex-wrap: wrap;
+    .container{
+      width: 100%;
+    }
+    .img{
+      width: 100%;
+    }
+  }
+
+  .secondaries-articules{
+    flex-wrap: wrap;
+    .container{
+      width: 50%;
+    }
+ 
+  }
+  .all-articules{
+    figure {
+      width: 150%;
+    }
+  }
+}
+

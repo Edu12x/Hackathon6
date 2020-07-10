@@ -97,3 +97,10 @@ $l-letter-font-size-2: 16px;
 
 //Estilos de grilla
 $img-display: block;
+
+
+$breakpoints:(
+  "lg"   :900px,
+  "md"  :768px,
+  "sm"   : 420px,
+);
