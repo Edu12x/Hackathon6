@@ -175,13 +175,24 @@ footer .rights, .footer__text, .footer__text a, .footer__container a, .footer__c
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: space-between;
-      -ms-flex-align: space-between;
-          align-items: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0.6%;
   width: 30%;
+}
+
+.secondaries-articules .container__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .secondaries-articules .container figure {
@@ -545,6 +556,9 @@ footer .rights {
   }
   .main-articule .container {
     width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   .main-articule .img {
     width: 100%;
@@ -559,8 +573,8 @@ footer .rights {
   .secondaries-articules .container {
     width: 100%;
   }
-  .secondaries-articules .container img {
-    width: 80%;
+  .secondaries-articules .container figure {
+    width: 90%;
   }
   .all-articules__img {
     -ms-flex-wrap: wrap;

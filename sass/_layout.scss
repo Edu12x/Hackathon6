@@ -143,19 +143,21 @@
     flex-wrap: wrap;
     .container {
       width: 100%;
+      order: 1;
     }
     .img {
       width: 100%;
     }
   }
 
+
   .secondaries-articules {
     flex-wrap: wrap;
     justify-content: center;
     .container {
       width: 100%;
-      img {
-        width: 80%;
+      figure {
+        width: 90%;
       }
     }
   }
