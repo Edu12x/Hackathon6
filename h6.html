@@ -5,41 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hackathon5</title>
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/main-h5.css" />
+    <link rel="stylesheet" href="./sass/h6_main.css" />
+    <script src="https://kit.fontawesome.com/318f3c5d76.js" crossorigin="anonymous"></script>
   </head>
   <body></body>
   <header>
     <div class="header">
-      <a class="logo" href="">A</a>
+      <a class="header__logo" href="">A</a>
       <nav>
-        <ul class="links">
+        <ul class="header__links">
           <li><a href="">Home</a></li>
           <li><a href="">Espectaculos</a></li>
           <li><a href="">Deportes</a></li>
         </ul>
       </nav>
     </div>
-    <div class="header-2">
+    <div class="header__content">
       <h2>Blog Afrianskaf</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
         mollitia hic, laboriosam architecto ipsa eveniet repellendus earum odit
         sint cumque quos aperiam atque porro molestiae maxime excepturi libero
-        laudantium totam?
+        laudantium totam
       </p>
     </div>
   </header>
   <main>
-    <input name="text-search" type="text" placeholder="Search Article" />
-    
+    <div class="search">
+    <a href=""><i class="fas fa-search"></i></a>
+    <input class="search__field" name="text-search" type="text" placeholder="Search Article" />
+  </div>
     <!-- LETTERS -->
 
-    <h2 class="main-title">POPULAR</h2>
+    <nav class="links">
+      <li><a href="">ALL POPULAR</a></li>
+    </nav>
 
     <!-- MAIN ARTICULES -->
 
     <section class="main-articule">
-      <div class="main-articule2">
+      <div class="container">
         <div>
         <h2>Feugiat sodales at nullam tellus.</h2>
         <p>
@@ -72,7 +77,7 @@
     <!-- SECONDARIES ARTICULES -->
 
     <section class="secondaries-articules">
-      <div class="secondarie-articules2">
+      <div class="container">
         <div>
         <figure><img src="./images/img-post-2.png" alt="" /></figure>
         <h2>Porta proin tellus sed pulvinar odio eu pulvinar</h2>
@@ -101,7 +106,7 @@
         </div>
       </div>
 
-      <div class="secondarie-articules2">
+      <div class="container">
         <div>
         <figure><img src="./images/img-post-3.png" alt="" /></figure>
         <h2>Non quam tortor, proin eu egestas scelerisque.</h2>
@@ -130,7 +135,7 @@
         </div>
       </div>
 
-      <div class="secondarie-articules2">
+      <div class="container">
         <div>
         <figure><img src="./images/img-post-3.1.png" alt="" /></figure>
         <h2>Amet amet sed pharetra risus sit eget interdum.</h2>
@@ -162,16 +167,24 @@
    </section>
 
    <!-- LETTERS -->
-   
-   <h2 class="popular-articules">SEE ALL ARTICULES</h2>
-   <h2 class="main-title">ALL ARTICULES</h2>
+   <nav class="links">
+     <ul>
+     <li><a href="">SEE ALL ARTICULES</a></li>
+    </ul>
+   </nav>
+
+   <nav class="links">
+     <ul>
+    <li><a href="">ALL ARTICULES</a></li>
+    </ul>
+  </nav>
 
    <!-- ALL ARTICULES -->
 
    <section class="all-articules">
-     <div class="all-articules2">
+     <div class="all-articules__img">
     <figure><img src="./images/img-post-4.png" alt="" /></figure>
-    <div class="all-articules3">
+    <div class="all-articules__content">
       <div>
       <h2>Massa eu in laoreet enim augue vulputate nunc.</h2>
       <p>
@@ -199,9 +212,9 @@
       </div>
     </div>
   </div>
-  <div class="all-articules2">
+  <div class="all-articules__img">
     <figure><img src="./images/img-post-5.png" alt="" /></figure>
-    <div class="all-articules3">
+    <div class="all-articules__content">
       <div>
       <h2>Feugiat a euismod arcu feugiat posuere morbi.</h2>
       <p>
@@ -229,9 +242,9 @@
       </div>
     </div>
   </div>
-  <div class="all-articules2">
+  <div class="all-articules__img">
     <figure><img src="./images/img-post-6.png" alt="" /></figure>
-    <div class="all-articules3">
+    <div class="all-articules__content">
       <div>
       <h2>Sociis purus pellentesque faucibus vitae et felis.</h2>
       <p>
@@ -259,9 +272,9 @@
       </div>
     </div>
   </div>
-  <div class="all-articules2">
+  <div class="all-articules__img">
     <figure><img src="./images/img-post-7.png" alt="" /></figure>
-    <div class="all-articules3">
+    <div class="all-articules__content">
       <div>
       <h2>Cursus feugiat mi pellentesque mauris sed eu.</h2>
       <p>
@@ -289,11 +302,11 @@
       </div>
     </div>
   </div>
-  <div class="all-articules2">
+  <div class="all-articules__img">
     <figure><img src="./images/img-post-8.png" alt="" /></figure>
-    <div>
-    <div class="all-articules3">
-      <h2>A morbi arcu curabitur etiam fringilla augue.</h2>
+    <div class="all-articules__content">
+      <div>
+      <h2>Cursus feugiat mi pellentesque mauris sed eu.</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. In laborum
         modi maxime optio doloribus aliquam nemo dolor ipsum veritatis,
@@ -320,30 +333,31 @@
     </div>
   </div>
    </section>
-   <nav>
+   <nav class="links">
      <!--POSTS-->
-     <ul class="post">
-       <li><a href="">Old Post</a></li>
-       <li><a href="">New Post</a></li>
+     <ul class="links__post">
+       <li><a href=""><i class="fas fa-arrow-left"></i>Old Post</a></li>
+       <li><a href="">New Post<i class="fas fa-arrow-right"></i></a></li>
      </ul>
    </nav>
   </main>
   <!--FOOTER-->
   <footer>
-    <div class="footer">
+    <div class="footer" >
+    <div class="footer__text">
       <div>
       <h2>Interested to Work with our Team</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, est consequatur. Nam assumenda nobis, consequuntur minima ab consequatur dolor quae quisquam ullam modi dolores magni tempora. Suscipit animi explicabo debitis.</p>
     </div>
     <a href="">Let's Talk</a>
   </div>
-    <div class="footer2">
-      <div class="afrianska">
-        <ul>
+    <div class="footer__container">
+      <div class="footer__container__text2">
+        <ul class=footer__container__text2__logo>
           <li><a class="logo" href="">A</a></li>
           <li><a class= subtitle href="">Afrianska</a></li>
         </ul>
-        <div class="afrianska2">
+        <div class="footer__container__text2__grid">
           <h3>A.</h3>
           <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
           <h3>T.</h3>
@@ -352,10 +366,10 @@
           <a href="mailto:hello.afrian@gmail.com">hello.afrian@gmail.com</a>
         </div>
       </div>
-      <div class="about-us">
-        <a class="subtitle" href="">About us</a>
+      <div class="footer__container__text3">
+        <a href="">About us</a>
         <nav>
-          <ul class="footer-links">
+          <ul>
             <li><a href="">About</a></li>
             <li><a href="">What We Do</a></li>
             <li><a href="">Project</a></li>
@@ -363,10 +377,10 @@
           </ul>
         </nav>
       </div>
-      <div class="follow-us">
-        <a class="subtitle" href="">Follow us</a>
+      <div class="footer__container__text3">
+        <a href="">Follow us</a>
         <nav>
-          <ul class="footer-links">
+          <ul>
             <li><a href="">Instagram</a></li>
             <li><a href="">Facebook</a></li>
             <li><a href="">LinkedIn</a></li>
@@ -375,10 +389,12 @@
         </nav>
       </div>
      </div>
+    
 
      <h3 class="rights">
       2020 © Afrianska Jorge Urrutia. All rights reserved.
      </h3>
+    </div>
 
 
   </footer>

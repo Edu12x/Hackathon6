@@ -277,7 +277,7 @@ footer .rights, .footer__text, .footer__text a, .footer__container a, .footer__c
 }
 
 .header__content {
-  background-image: url(../imagen/banner.png);
+  background-image: url(../images/banner.png);
   max-width: 100%;
   text-align: center;
   padding: 3% 15%;
