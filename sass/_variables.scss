@@ -55,6 +55,7 @@ $logo-color2: #98C3E8;
 }
 
 //tamaños de letras -lk:links - tl:titulos - p:Parrafos - l:letters
+$hdr-lk-font-size:20px;
 $tl-main-font-size: 44px;
 $tl-p-font-size: 20px;
 $lk-main-font-size: 36px;
@@ -63,14 +64,52 @@ $lk-all-articules-font-size: 18px;
 $lk-bottom-font-size: 14px;
 $p-main-font-size: 16px;
 $p-secondary-font-size: 16px;
-$l-letter-font-size: 23px;
+$p-all-articule-font-size:14px;
+$l-letter-font-size: 20px;
 $l-letter-font-size-2: 16px;
+
+//tablet
+//tamaños de letras -lk:links - tl:titulos - p:Parrafos - l:letters
+$hdr-lk-font-size-t:20px;
+$tl-main-font-size-t: 32px;
+$tl-p-font-size-t: 16px;
+$lk-main-font-size-t: 28px;
+$lk-secondary-font-size-t: 18px;
+$lk-all-articules-font-size-t: 18px;
+$lk-bottom-font-size-t: 14px;
+$p-main-font-size-t: 16px;
+$p-secondary-font-size-t: 16px;
+$p-all-articule-font-size-t:14px;
+$l-letter-font-size-t: 20px;
+$l-letter-font-size-2-t: 16px;
+
+//smartphone
+//tamaños de letras -lk:links - tl:titulos - p:Parrafos - l:letters
+$hdr-lk-font-size-sm:14px;
+$tl-main-font-size-sm: 24px;
+$tl-p-font-size-sm: 13px;
+$lk-main-font-size-sm: 20px;
+$lk-secondary-font-size-sm: 18px;
+$lk-all-articules-font-size-sm: 18px;
+$lk-bottom-font-size-sm: 14px;
+$p-main-font-size-sm: 14px;
+$p-secondary-font-size-sm: 14px;
+$p-all-articule-font-size-sm:14px;
+$l-letter-font-size-sm: 22px;
+$l-letter-font-size-2-sm: 16px;
+
+
+
+
+
+
+
+
 
 //botom - parrafo
 %bottom-p {
   color: gray;
   font-family: arial;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.04em;
 }
@@ -99,8 +138,8 @@ $l-letter-font-size-2: 16px;
 $img-display: block;
 
 
-$breakpoints:(
-  "lg"   :900px,
-  "md"  :768px,
-  "sm"   : 420px,
+$breakpoints: (
+  "tablet"      :900px,
+  "smartphone"  :768px,
+  "sm"          : 420px,
 );

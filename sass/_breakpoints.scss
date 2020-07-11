@@ -1,13 +1,12 @@
-@import "styles";
 
 @mixin breakpoints ($breakpoints){
-  @if ($breakpoints=="lg"){
+  @if ($breakpoints== "tablet" ){
     @media (max-width: 900px ){
       @content;
     }
   }
 
-  @if ($breakpoints=="md"){
+  @if ($breakpoints=="smartphone"){
     @media (max-width: 768px){
       @content;
     }

@@ -1,4 +1,3 @@
-@import "styles";
 
 .all-articules {
   padding-top: 20px;
@@ -29,6 +28,7 @@
 
     p {
       @extend %bottom-p;
+      font-size: $p-all-articule-font-size;
     }
   }
 }

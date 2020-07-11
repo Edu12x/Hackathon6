@@ -1,9 +1,7 @@
-@import "styles";
 
 .main-articule {
   display: flex;
-  justify-items: center;
-
+  justify-content: center;
   .container {
     width: 50%;
     display: grid;
@@ -17,6 +15,7 @@
     p {
       @extend %bottom-p;
       padding-top: 15px;
+      font-size: $p-main-font-size;
     }
   }
 
