@@ -1,7 +1,7 @@
 
 // Tablets
 
-@include breakpoints("tablet") {
+@include breakpoint("tablet") {
   main {
     margin: 0% 3%;
   }
@@ -138,7 +138,7 @@
 
 //SMARTPHONE
 
-@include breakpoints("smartphone") {
+@include breakpoint("smartphone") {
   .main-articule {
     flex-wrap: wrap;
     .container {
@@ -157,7 +157,7 @@
     .container {
       width: 100%;
       figure {
-        width: 90%;
+        width: 100%;
       }
     }
   }
@@ -169,7 +169,8 @@
     }
     
     figure {
-      width: 90%;
+      width: 100%;
+      padding-bottom: 10px;
     }
   }
 

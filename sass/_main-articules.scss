@@ -1,11 +1,11 @@
 
 .main-articule {
   display: flex;
-  justify-content: center;
   .container {
     width: 50%;
-    display: grid;
-    align-items: space-between;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 
     h2 {
       @extend %links;

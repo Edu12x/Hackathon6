@@ -8,8 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0.6%;
-    width: 30%;
+    padding-right: 1%;
+    width: 33,3%;
 
     &__text{
       display: flex;
@@ -19,6 +19,7 @@
 
     figure{
       padding-bottom: 5%;
+      width: 100%;
     }
    
     img {
